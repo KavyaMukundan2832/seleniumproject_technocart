@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="test.logintest">
+        <methods>
+          <include name="loginTest"/>
+          <include name="aftmthd"/>
+          <include name="setUp"/>
+          <include name="loginDataTest"/>
+          <include name="object"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- test.logintest -->
+      <class name="test.addtocarttest">
+        <methods>
+          <include name="aftmthd"/>
+          <include name="setUp"/>
+          <include name="addtocartTest"/>
+          <include name="object"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- test.addtocarttest -->
+      <class name="test.searchproducttest">
+        <methods>
+          <include name="aftmthd"/>
+          <include name="setUp"/>
+          <include name="object"/>
+          <include name="searchTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- test.searchproducttest -->
+      <class name="test.checkouttest">
+        <methods>
+          <include name="aftmthd"/>
+          <include name="checkoutPageTest"/>
+          <include name="setUp"/>
+          <include name="object"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- test.checkouttest -->
+      <class name="test.producttest">
+        <methods>
+          <include name="aftmthd"/>
+          <include name="setUp"/>
+          <include name="addProduct"/>
+          <include name="object"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- test.producttest -->
+      <class name="base.technobase">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- base.technobase -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

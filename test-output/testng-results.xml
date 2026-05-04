@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-05-02T11:35:40 IST" name="Suite" finished-at="2026-05-02T11:38:25 IST" duration-ms="164478">
+    <groups>
+    </groups>
+    <test started-at="2026-05-02T11:35:40 IST" name="Test" finished-at="2026-05-02T11:38:25 IST" duration-ms="164478">
+      <class name="base.technobase">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:base.technobase@477b4cdf]" started-at="2026-05-02T11:35:41 IST" name="setUp" finished-at="2026-05-02T11:36:28 IST" duration-ms="47131" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:base.technobase@477b4cdf]" started-at="2026-05-02T11:38:21 IST" name="tearDown" finished-at="2026-05-02T11:38:25 IST" duration-ms="4252" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- base.technobase -->
+      <class name="test.addtocarttest">
+        <test-method is-config="true" signature="object()[pri:0, instance:test.addtocarttest@4e08711f]" started-at="2026-05-02T11:37:44 IST" name="object" finished-at="2026-05-02T11:37:44 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- object -->
+        <test-method signature="addtocartTest()[pri:0, instance:test.addtocarttest@4e08711f]" started-at="2026-05-02T11:37:44 IST" name="addtocartTest" finished-at="2026-05-02T11:37:59 IST" duration-ms="14255" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addtocartTest -->
+        <test-method is-config="true" signature="aftmthd(org.testng.ITestResult)[pri:0, instance:test.addtocarttest@4e08711f]" started-at="2026-05-02T11:37:59 IST" name="aftmthd" finished-at="2026-05-02T11:37:59 IST" duration-ms="7" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addtocartTest status=SUCCESS method=addtocarttest.addtocartTest()[pri:0, instance:test.addtocarttest@4e08711f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftmthd -->
+      </class> <!-- test.addtocarttest -->
+      <class name="test.searchproducttest">
+        <test-method is-config="true" signature="object()[pri:0, instance:test.searchproducttest@4b2bac3f]" started-at="2026-05-02T11:37:36 IST" name="object" finished-at="2026-05-02T11:37:36 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- object -->
+        <test-method signature="searchTest()[pri:0, instance:test.searchproducttest@4b2bac3f]" started-at="2026-05-02T11:37:36 IST" name="searchTest" finished-at="2026-05-02T11:37:44 IST" duration-ms="8160" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method is-config="true" signature="aftmthd(org.testng.ITestResult)[pri:0, instance:test.searchproducttest@4b2bac3f]" started-at="2026-05-02T11:37:44 IST" name="aftmthd" finished-at="2026-05-02T11:37:44 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchTest status=SUCCESS method=searchproducttest.searchTest()[pri:0, instance:test.searchproducttest@4b2bac3f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftmthd -->
+      </class> <!-- test.searchproducttest -->
+      <class name="test.hometest">
+        <test-method is-config="true" signature="object()[pri:0, instance:test.hometest@3bf7ca37]" started-at="2026-05-02T11:36:28 IST" name="object" finished-at="2026-05-02T11:36:28 IST" duration-ms="658" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- object -->
+        <test-method signature="logoTest()[pri:0, instance:test.hometest@3bf7ca37]" started-at="2026-05-02T11:36:28 IST" name="logoTest" finished-at="2026-05-02T11:36:31 IST" duration-ms="2870" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoTest -->
+        <test-method is-config="true" signature="aftmthd(org.testng.ITestResult)[pri:0, instance:test.hometest@3bf7ca37]" started-at="2026-05-02T11:36:31 IST" name="aftmthd" finished-at="2026-05-02T11:36:31 IST" duration-ms="18" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=logoTest status=SUCCESS method=hometest.logoTest()[pri:0, instance:test.hometest@3bf7ca37] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftmthd -->
+        <test-method is-config="true" signature="object()[pri:0, instance:test.hometest@3bf7ca37]" started-at="2026-05-02T11:36:31 IST" name="object" finished-at="2026-05-02T11:36:31 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- object -->
+        <test-method signature="mouseHoverTest()[pri:0, instance:test.hometest@3bf7ca37]" started-at="2026-05-02T11:36:31 IST" name="mouseHoverTest" finished-at="2026-05-02T11:36:33 IST" duration-ms="1315" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mouseHoverTest -->
+        <test-method is-config="true" signature="aftmthd(org.testng.ITestResult)[pri:0, instance:test.hometest@3bf7ca37]" started-at="2026-05-02T11:36:33 IST" name="aftmthd" finished-at="2026-05-02T11:36:33 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=mouseHoverTest status=SUCCESS method=hometest.mouseHoverTest()[pri:0, instance:test.hometest@3bf7ca37] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftmthd -->
+        <test-method is-config="true" signature="object()[pri:0, instance:test.hometest@3bf7ca37]" started-at="2026-05-02T11:36:33 IST" name="object" finished-at="2026-05-02T11:36:33 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- object -->
+        <test-method signature="titleTest()[pri:0, instance:test.hometest@3bf7ca37]" started-at="2026-05-02T11:36:33 IST" name="titleTest" finished-at="2026-05-02T11:36:33 IST" duration-ms="161" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- titleTest -->
+        <test-method is-config="true" signature="aftmthd(org.testng.ITestResult)[pri:0, instance:test.hometest@3bf7ca37]" started-at="2026-05-02T11:36:33 IST" name="aftmthd" finished-at="2026-05-02T11:36:33 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=titleTest status=SUCCESS method=hometest.titleTest()[pri:0, instance:test.hometest@3bf7ca37] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftmthd -->
+      </class> <!-- test.hometest -->
+      <class name="test.checkouttest">
+        <test-method is-config="true" signature="object()[pri:0, instance:test.checkouttest@26794848]" started-at="2026-05-02T11:38:10 IST" name="object" finished-at="2026-05-02T11:38:10 IST" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- object -->
+        <test-method signature="checkoutPageTest()[pri:0, instance:test.checkouttest@26794848]" started-at="2026-05-02T11:38:10 IST" name="checkoutPageTest" finished-at="2026-05-02T11:38:21 IST" duration-ms="10344" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkoutPageTest -->
+        <test-method is-config="true" signature="aftmthd(org.testng.ITestResult)[pri:0, instance:test.checkouttest@26794848]" started-at="2026-05-02T11:38:21 IST" name="aftmthd" finished-at="2026-05-02T11:38:21 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkoutPageTest status=SUCCESS method=checkouttest.checkoutPageTest()[pri:0, instance:test.checkouttest@26794848] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftmthd -->
+      </class> <!-- test.checkouttest -->
+      <class name="test.logintest">
+        <test-method is-config="true" signature="object()[pri:0, instance:test.logintest@4d1c00d0]" started-at="2026-05-02T11:36:44 IST" name="object" finished-at="2026-05-02T11:36:44 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- object -->
+        <test-method signature="loginDataTest()[pri:0, instance:test.logintest@4d1c00d0]" started-at="2026-05-02T11:36:44 IST" name="loginDataTest" finished-at="2026-05-02T11:37:30 IST" duration-ms="46716" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginDataTest -->
+        <test-method is-config="true" signature="aftmthd(org.testng.ITestResult)[pri:0, instance:test.logintest@4d1c00d0]" started-at="2026-05-02T11:37:30 IST" name="aftmthd" finished-at="2026-05-02T11:37:30 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginDataTest status=SUCCESS method=logintest.loginDataTest()[pri:0, instance:test.logintest@4d1c00d0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftmthd -->
+        <test-method is-config="true" signature="object()[pri:0, instance:test.logintest@4d1c00d0]" started-at="2026-05-02T11:37:30 IST" name="object" finished-at="2026-05-02T11:37:30 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- object -->
+        <test-method signature="loginTest()[pri:0, instance:test.logintest@4d1c00d0]" started-at="2026-05-02T11:37:30 IST" name="loginTest" finished-at="2026-05-02T11:37:36 IST" duration-ms="5613" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="aftmthd(org.testng.ITestResult)[pri:0, instance:test.logintest@4d1c00d0]" started-at="2026-05-02T11:37:36 IST" name="aftmthd" finished-at="2026-05-02T11:37:36 IST" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginTest status=SUCCESS method=logintest.loginTest()[pri:0, instance:test.logintest@4d1c00d0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftmthd -->
+      </class> <!-- test.logintest -->
+      <class name="test.producttest">
+        <test-method is-config="true" signature="object()[pri:0, instance:test.producttest@bcec361]" started-at="2026-05-02T11:37:59 IST" name="object" finished-at="2026-05-02T11:37:59 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- object -->
+        <test-method signature="addProduct()[pri:0, instance:test.producttest@bcec361]" started-at="2026-05-02T11:37:59 IST" name="addProduct" finished-at="2026-05-02T11:38:10 IST" duration-ms="11767" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addProduct -->
+        <test-method is-config="true" signature="aftmthd(org.testng.ITestResult)[pri:0, instance:test.producttest@bcec361]" started-at="2026-05-02T11:38:10 IST" name="aftmthd" finished-at="2026-05-02T11:38:10 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addProduct status=SUCCESS method=producttest.addProduct()[pri:0, instance:test.producttest@bcec361] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftmthd -->
+      </class> <!-- test.producttest -->
+      <class name="test.registrationtest">
+        <test-method is-config="true" signature="object()[pri:0, instance:test.registrationtest@79079097]" started-at="2026-05-02T11:36:33 IST" name="object" finished-at="2026-05-02T11:36:33 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- object -->
+        <test-method signature="gotoTest()[pri:0, instance:test.registrationtest@79079097]" started-at="2026-05-02T11:36:33 IST" name="gotoTest" finished-at="2026-05-02T11:36:44 IST" duration-ms="10872" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gotoTest -->
+        <test-method is-config="true" signature="aftmthd(org.testng.ITestResult)[pri:0, instance:test.registrationtest@79079097]" started-at="2026-05-02T11:36:44 IST" name="aftmthd" finished-at="2026-05-02T11:36:44 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=gotoTest status=SUCCESS method=registrationtest.gotoTest()[pri:0, instance:test.registrationtest@79079097] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftmthd -->
+      </class> <!-- test.registrationtest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
